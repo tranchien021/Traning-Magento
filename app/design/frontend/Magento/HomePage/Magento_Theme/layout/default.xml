@@ -13,6 +13,19 @@
             <block class="Magento\Framework\View\Element\Template" name="category_content" template="Magento_Theme::html/topcategory.phtml"></block>
             <block class="Magento\Framework\View\Element\Template" name="dealofday_content" template="Magento_Theme::html/dealofday.phtml"></block>
         </referenceContainer> -->
+
+        <referenceContainer name="header.panel.wrapper">
+            <block class="Magento\Framework\View\Element\Template" name="custom.block" template="Magento_Theme::html/imageheader.phtml" />
+        </referenceContainer>
+        
+        <referenceContainer name="footer" remove="true"></referenceContainer>
+        <referenceContainer name="footer-container">
+            <block class="Magento\Framework\View\Element\Template" name="footer.block" template="Magento_Theme::html/footer.phtml" />
+        </referenceContainer>
+
+        
+
+
     </body>
 
 </page>
